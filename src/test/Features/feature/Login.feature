@@ -34,10 +34,10 @@ Feature: Login feature
     When  User click MyAccount button
     Then Signin page will drop down
     And User click signin button
-    When User enter valid email address as "<userName>"
+    When User enter valid email and password as
     |kartick01@yahoo.com |Bangladesh01|
     |ma_raz@yahoo.com    |Bangladesh02 |
-    And User enter valid password as "<password>"
+
     And Click signin Button
     Then User should successfully Login
 
